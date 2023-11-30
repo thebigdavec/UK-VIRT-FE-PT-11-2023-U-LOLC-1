@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+#id {
+  display: grid;
+  grid-template: 1fr;
+  grid-template-areas: 'id';
+  justify-content: start;
+  justify-items: center;
+  align-items: end;
+  color: white;
+}
+
+#id > * {
+  grid-area: id;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.name {
+  text-shadow: 1px 1px 4px black;
+}
+#contact {
+  padding: 1.6rem 2.2rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 0 20px 10px -15px #0005;
+  max-width: 500px;
+}
+
+li {
+  line-height: 1.6;
+}
