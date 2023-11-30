@@ -53,6 +53,7 @@ p {
   text-shadow: 1px 1px 4px black;
 }
 #contact-info {
+  background-color: #fcfaf4;
   margin-inline: auto;
   margin-block-start: 2rem;
   padding: 1.6rem 2.2rem;
