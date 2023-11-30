@@ -2,14 +2,19 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 #id {
   display: grid;
   grid-template: 1fr;
   grid-template-areas: 'id';
-  justify-content: start;
+  justify-content: center;
   justify-items: center;
   align-items: end;
   color: white;
+  margin-block-end: 2rem;
 }
 
 #id > * {
@@ -25,6 +30,8 @@ img {
   text-shadow: 1px 1px 4px black;
 }
 #contact {
+  margin-inline: auto;
+  margin-block-start: 2rem;
   padding: 1.6rem 2.2rem;
   border: 1px solid grey;
   border-radius: 20px;
