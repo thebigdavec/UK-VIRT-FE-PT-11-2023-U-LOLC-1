@@ -21,6 +21,10 @@ h1 {
   grid-area: id;
 }
 
+p {
+  max-width: 60ch;
+  margin-inline: auto;
+}
 img {
   border-radius: 20px;
   box-shadow: 0 20px 10px -15px #0005;
